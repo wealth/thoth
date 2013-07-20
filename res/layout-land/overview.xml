@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout">
+    <ViewFlipper
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/viewFlipper" android:layout_weight="1">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:id="@+id/imageView"
+                       android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                       android:src="@drawable/overview" android:scaleType="matrix"
+                       android:adjustViewBounds="false"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                      android:text="Card Description Here" android:id="@+id/textView" android:layout_alignLeft="@+id/imageView"
+                      android:layout_below="@+id/imageView" android:layout_margin="11dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="match_parent"
+                       android:id="@+id/imageView1" android:layout_alignParentLeft="true"
+                       android:layout_alignParentTop="true" android:src="@drawable/overview" android:scaleType="matrix"
+                       android:adjustViewBounds="false"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                      android:text="Card Description Here" android:id="@+id/textView1"
+                      android:layout_alignLeft="@+id/imageView" android:layout_below="@+id/imageView"
+                      android:layout_margin="11dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>
