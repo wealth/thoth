@@ -114,7 +114,20 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
                     return R.drawable.art;
                 case 15:
                     return R.drawable.devil;
-                case 16
+                case 16:
+                    return R.drawable.tower;
+                case 17:
+                    return R.drawable.star;
+                case 18:
+                    return R.drawable.moon2;
+                case 19:
+                    return R.drawable.sun;
+                case 20:
+                    return R.drawable.aeon;
+                case 21:
+                    return R.drawable.universe;
+                default:
+                    break;
             }
         }
         else if (string.startsWith("m")) {

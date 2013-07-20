@@ -55,7 +55,7 @@
     <file path="/fragment.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374232933242" ignored="false" />
     <file path="/MenuActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374233155884" ignored="false" />
     <file path="/Dummy.txt" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374303711409" ignored="false" />
-    <file path="/OverviewActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374320308929" ignored="false" />
+    <file path="/OverviewActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374320937542" ignored="false" />
     <file path="/DispositionActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374233597178" ignored="false" />
     <file path="/GameView.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374314113929" ignored="false" />
     <file path="/Sprite.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374253840387" ignored="false" />
@@ -125,7 +125,7 @@
       <file leaf-file-name="OverviewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="23" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.7878788">
+            <state line="129" column="26" selection-start="4346" selection-end="4346" vertical-scroll-proportion="1.3939394">
               <folding />
             </state>
           </provider>
@@ -607,7 +607,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7342419" order="3" side_tool="false" content_ui="tabs" />
@@ -820,7 +820,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="23" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.7878788">
+        <state line="129" column="26" selection-start="4346" selection-end="4346" vertical-scroll-proportion="1.3939394">
           <folding />
         </state>
       </provider>
