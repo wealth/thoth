@@ -7,13 +7,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/button_overview" android:layout_gravity="left|center_vertical" android:layout_weight="1"
-            android:src="@drawable/overview" android:scaleType="centerCrop" android:adjustViewBounds="true"
+            android:src="@drawable/boxcover" android:scaleType="centerCrop" android:adjustViewBounds="true"
             android:onClick="onOverview"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/button_disposition" android:layout_gravity="left|center_vertical" android:layout_weight="1"
-            android:src="@drawable/disposition" android:scaleType="center" android:adjustViewBounds="true"
+            android:src="@drawable/disposition" android:scaleType="fitXY" android:adjustViewBounds="true"
             android:onClick="onDisposition"/>
 </LinearLayout>
 

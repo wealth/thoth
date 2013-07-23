@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-              xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout">
-    <ViewFlipper android:layout_width="wrap_content" android:layout_height="wrap_content"
-                 android:id="@+id/viewFlipper">
-        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView"
-                   android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
-                   android:src="@drawable/overview" android:scaleType="center"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                  android:text="Card Description Here" android:id="@+id/textView"
-                  android:layout_alignLeft="@+id/imageView" android:layout_below="@+id/imageView"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:id="@+id/linearLayout">
+    <ViewFlipper android:layout_width="0dp" android:layout_height="match_parent" android:id="@+id/viewFlipper"
+                 android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/imageView"
+                       android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                       android:src="@drawable/overview" android:scaleType="fitCenter" android:adjustViewBounds="false"
+                       android:layout_weight="1"/>
+            <view class="com.example.Thoth.JustifiedTextView" android:layout_width="match_parent"
+                  android:layout_height="0dp" android:id="@+id/view"
+                  android:layout_gravity="center_horizontal|top" android:layout_weight="1"
+                  android:layout_margin="11dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" android:id="@+id/linearLayout1">
+            <ImageView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/imageView1"
+                       android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                       android:src="@drawable/overview" android:scaleType="fitCenter" android:adjustViewBounds="false"
+                       android:layout_weight="1"/>
+            <view class="com.example.Thoth.JustifiedTextView" android:layout_width="match_parent"
+                  android:layout_height="0dp" android:id="@+id/view1" android:layout_gravity="center_horizontal|top"
+                  android:layout_weight="1" android:layout_margin="11dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" android:id="@+id/linearLayout2">
+            <ImageView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/imageView2"
+                       android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                       android:src="@drawable/overview" android:scaleType="fitCenter" android:adjustViewBounds="false"
+                       android:layout_weight="1"/>
+            <view class="com.example.Thoth.JustifiedTextView" android:layout_width="match_parent"
+                  android:layout_height="0dp" android:id="@+id/view2" android:layout_gravity="center_horizontal|top"
+                  android:layout_weight="1" android:layout_margin="11dp"/>
+        </LinearLayout>
     </ViewFlipper>
 </LinearLayout>

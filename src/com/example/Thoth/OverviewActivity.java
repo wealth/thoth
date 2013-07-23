@@ -1,12 +1,16 @@
 package com.example.Thoth;
 
 import android.app.Activity;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import java.util.ArrayList;
@@ -22,8 +26,11 @@ import java.util.LinkedList;
 public class OverviewActivity extends Activity implements View.OnTouchListener {
     private ViewFlipper flipper;
 
-    private LinkedList<String> cards;
-    private String currentCard;
+    private RingList cards;
+    private RingListNode currentCard;
+
+    private RingList views;
+    private RingListNode currentView;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,8 +39,8 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         flipper = ((ViewFlipper)findViewById(R.id.viewFlipper));
         flipper.setOnTouchListener(this);
 
-        cards = new LinkedList<String>();
-        for (int i = 0; i < 23; i++) {
+        cards = new RingList();
+        for (int i = 0; i < 22; i++) {
             cards.add("M " + String.valueOf(i));
         }
         for (int i = 0; i < 4; i++) {
@@ -43,6 +50,16 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         }
 
         currentCard = cards.get(0);
+
+        views = new RingList();
+        views.add(0);
+        views.add(1);
+        views.add(2);
+
+        currentView = views.get(0);
+        setCardImage(flipper, (Integer) currentView.data, (String) currentCard.data);
+        setCardImage(flipper, (Integer) currentView.prev.data, (String) currentCard.prev.data);
+        setCardImage(flipper, (Integer) currentView.next.data, (String) currentCard.next.data);
     }
 
     private float fromPosition;
@@ -58,7 +75,6 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
                 isSwipe = true;
                 break;
             case MotionEvent.ACTION_MOVE:
-                Log.i("Overview", String.valueOf(isSwipe));
                 if (isSwipe) {
                     float toPosition = event.getX();
                     // MOVE_LENGTH - расстояние по оси X, после которого можно переходить на след. экран
@@ -78,75 +94,131 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         return true;
     }
 
-    private int getDrawable(String string) {
+    private String getResourceName(String string) {
         if (string.startsWith("M")) {
             String num = string.split(" ")[1];
-            switch (Integer.getInteger(num)) {
+            switch (Integer.parseInt(num)) {
                 case 0:
-                    return R.drawable.fool;
+                    return "fool";
                 case 1:
-                    return R.drawable.magus;
+                    return "magus";
                 case 2:
-                    return R.drawable.priestess;
+                    return "priestess";
                 case 3:
-                    return R.drawable.empress;
+                    return "empress";
                 case 4:
-                    return R.drawable.emperor;
+                    return "emperor";
                 case 5:
-                    return R.drawable.hierophant;
+                    return "hierophant";
                 case 6:
-                    return R.drawable.lovers;
+                    return "lovers";
                 case 7:
-                    return R.drawable.chariot;
+                    return "chariot";
                 case 8:
-                    return R.drawable.adjustment;
+                    return "adjustment";
                 case 9:
-                    return R.drawable.hermit;
+                    return "hermit";
                 case 10:
-                    return R.drawable.fortune;
+                    return "fortune";
                 case 11:
-                    return R.drawable.lust;
+                    return "lust";
                 case 12:
-                    return R.drawable.hangedman;
+                    return "hangedman";
                 case 13:
-                    return R.drawable.death;
+                    return "death";
                 case 14:
-                    return R.drawable.art;
+                    return "art";
                 case 15:
-                    return R.drawable.devil;
+                    return "devil";
                 case 16:
-                    return R.drawable.tower;
+                    return "tower";
                 case 17:
-                    return R.drawable.star;
+                    return "star";
                 case 18:
-                    return R.drawable.moon2;
+                    return "moon2";
                 case 19:
-                    return R.drawable.sun;
+                    return "sun";
                 case 20:
-                    return R.drawable.aeon;
+                    return "aeon";
                 case 21:
-                    return R.drawable.universe;
+                    return "universe";
                 default:
                     break;
             }
         }
         else if (string.startsWith("m")) {
-
+            int type = Integer.parseInt(string.split(" ")[1]);
+            int value = Integer.parseInt(string.split(" ")[3]);
+            switch(type) {
+                case 0:
+                    return getMinor("cups", value);
+                case 1:
+                    return getMinor("disks", value);
+                case 2:
+                    return getMinor("wands", value);
+                case 3:
+                    return getMinor("swords", value);
+                default:
+                    break;
+            }
         }
+        return null;
+    }
+
+    private String getMinor(String type, int value) {
+        String val;
+        switch(value) {
+            case 10:
+                val = "princessof" + type;
+                break;
+            case 11:
+                val = "princeof" + type;
+                break;
+            case 12:
+                val = "queenof" + type;
+                break;
+            case 13:
+                val = "knightof" + type;
+                break;
+            default:
+                val = String.format("%02d", value + 1);
+                break;
+        }
+        return (type + val);
+    }
+
+    private void setCardImage(ViewFlipper flipper, int viewId, String card) {
+        ImageView image = (ImageView) ((LinearLayout)flipper.getChildAt(viewId)).getChildAt(0);
+        JustifiedTextView justified = (JustifiedTextView) ((LinearLayout)flipper.getChildAt(viewId)).getChildAt(1);
+
+        Log.i("Overview", getResourceName(card));
+        int drawableID = this.getResources().getIdentifier(getResourceName(card), "drawable", getPackageName());
+        int stringID = this.getResources().getIdentifier(getResourceName(card), "string", getPackageName());
+        image.setImageResource(drawableID);
+        justified.setText(stringID);
     }
 
     private void onRightSwipe() {
-        ImageView image = (ImageView) flipper.getCurrentView().findViewById(R.id.imageView);
-        int nextIdx = (cards.indexOf(currentCard) + 1) % 78;
-        currentCard = cards.get(nextIdx);
+        currentCard = currentCard.next;
+        currentView = currentView.next;
+//        setCardImage(flipper, (Integer) currentView.data, (String) currentCard.data);
+//        setCardImage(flipper, (Integer) currentView.prev.data, (String) currentCard.prev.data);
+        setCardImage(flipper, (Integer) currentView.next.data, (String) currentCard.next.data);
 
-        flipper.setInAnimation(AnimationUtils.loadAnimation(this,R.anim.go_next_in));
+
+        flipper.setInAnimation(AnimationUtils.loadAnimation(this, R.anim.go_next_in));
         flipper.setOutAnimation(AnimationUtils.loadAnimation(this,R.anim.go_next_out));
         flipper.showNext();
         isSwipe = false;
     }
 
     private void onLeftSwipe() {
+        currentCard = currentCard.prev;
+        currentView = currentView.prev;
+//        setCardImage(flipper, (Integer) currentView.data, (String) currentCard.data);
+        setCardImage(flipper, (Integer) currentView.prev.data, (String) currentCard.prev.data);
+//        setCardImage(flipper, (Integer) currentView.next.data, (String) currentCard.next.data);
+
         flipper.setInAnimation(AnimationUtils.loadAnimation(this,R.anim.go_prev_in));
         flipper.setOutAnimation(AnimationUtils.loadAnimation(this,R.anim.go_prev_out));
         flipper.showPrevious();
