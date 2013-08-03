@@ -40,7 +40,6 @@ public class JustifiedTextView extends WebView {
 
         // loadData(...) has a bug showing utf-8 correctly. That's why we need to set it first.
         this.getSettings().setDefaultTextEncodingName("utf-8");
-        Log.d("test", this.getContext().getString(R.string.fool));
         this.loadData(String.format(core,textColor,textSize,text), "text/html; charset=UTF-8", null);
 
         // set WebView's background color *after* data was loaded.

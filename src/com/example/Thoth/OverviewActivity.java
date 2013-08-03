@@ -1,6 +1,7 @@
 package com.example.Thoth;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -40,16 +41,21 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         flipper.setOnTouchListener(this);
 
         cards = new RingList();
-        for (int i = 0; i < 22; i++) {
-            cards.add("M " + String.valueOf(i));
-        }
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 14; j++) {
-                cards.add(("m " + String.valueOf(i) + " - " + String.valueOf(j)));
-            }
-        }
 
-        currentCard = cards.get(0);
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("CardName");
+
+        for (int i=0; i<78; i++)
+            cards.add(Utils.GetCardCode(i));
+
+        Log.i("Test", "CARD: " + message);
+        if (message != null) {
+            if (message.startsWith("M "))
+                message = message.substring(2);
+            currentCard = cards.get(Integer.valueOf(message));
+        }
+        else
+            currentCard = cards.get(0);
 
         views = new RingList();
         views.add(0);
@@ -61,6 +67,8 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         setCardImage(flipper, (Integer) currentView.prev.data, (String) currentCard.prev.data);
         setCardImage(flipper, (Integer) currentView.next.data, (String) currentCard.next.data);
     }
+
+
 
     private float fromPosition;
     private boolean isSwipe = false;
@@ -94,106 +102,13 @@ public class OverviewActivity extends Activity implements View.OnTouchListener {
         return true;
     }
 
-    private String getResourceName(String string) {
-        if (string.startsWith("M")) {
-            String num = string.split(" ")[1];
-            switch (Integer.parseInt(num)) {
-                case 0:
-                    return "fool";
-                case 1:
-                    return "magus";
-                case 2:
-                    return "priestess";
-                case 3:
-                    return "empress";
-                case 4:
-                    return "emperor";
-                case 5:
-                    return "hierophant";
-                case 6:
-                    return "lovers";
-                case 7:
-                    return "chariot";
-                case 8:
-                    return "adjustment";
-                case 9:
-                    return "hermit";
-                case 10:
-                    return "fortune";
-                case 11:
-                    return "lust";
-                case 12:
-                    return "hangedman";
-                case 13:
-                    return "death";
-                case 14:
-                    return "art";
-                case 15:
-                    return "devil";
-                case 16:
-                    return "tower";
-                case 17:
-                    return "star";
-                case 18:
-                    return "moon2";
-                case 19:
-                    return "sun";
-                case 20:
-                    return "aeon";
-                case 21:
-                    return "universe";
-                default:
-                    break;
-            }
-        }
-        else if (string.startsWith("m")) {
-            int type = Integer.parseInt(string.split(" ")[1]);
-            int value = Integer.parseInt(string.split(" ")[3]);
-            switch(type) {
-                case 0:
-                    return getMinor("cups", value);
-                case 1:
-                    return getMinor("disks", value);
-                case 2:
-                    return getMinor("wands", value);
-                case 3:
-                    return getMinor("swords", value);
-                default:
-                    break;
-            }
-        }
-        return null;
-    }
-
-    private String getMinor(String type, int value) {
-        String val;
-        switch(value) {
-            case 10:
-                val = "princessof" + type;
-                break;
-            case 11:
-                val = "princeof" + type;
-                break;
-            case 12:
-                val = "queenof" + type;
-                break;
-            case 13:
-                val = "knightof" + type;
-                break;
-            default:
-                val = String.format("%02d", value + 1);
-                break;
-        }
-        return (type + val);
-    }
-
     private void setCardImage(ViewFlipper flipper, int viewId, String card) {
         ImageView image = (ImageView) ((LinearLayout)flipper.getChildAt(viewId)).getChildAt(0);
         JustifiedTextView justified = (JustifiedTextView) ((LinearLayout)flipper.getChildAt(viewId)).getChildAt(1);
 
-        Log.i("Overview", getResourceName(card));
-        int drawableID = this.getResources().getIdentifier(getResourceName(card), "drawable", getPackageName());
-        int stringID = this.getResources().getIdentifier(getResourceName(card), "string", getPackageName());
+        Log.i("Overview", Utils.GetResourceName(card));
+        int drawableID = this.getResources().getIdentifier(Utils.GetResourceName(card), "drawable", getPackageName());
+        int stringID = this.getResources().getIdentifier(Utils.GetResourceName(card), "string", getPackageName());
         image.setImageResource(drawableID);
         justified.setText(stringID);
     }

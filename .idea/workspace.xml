@@ -19,7 +19,7 @@
       <filter>
         <option name="logLevel" value="debug" />
         <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="test" />
+        <option name="logTagPattern" value="Test" />
         <option name="name" value="Test" />
         <option name="pid" value="" />
       </filter>
@@ -29,7 +29,7 @@
     <option name="fullProfile">
       <profile>
         <option name="device" value="2.7in QVGA" />
-        <option name="deviceConfiguration" value="Landscape" />
+        <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-15" />
         <option name="theme" value="Theme.Black.NoTitleBar.Fullscreen" />
       </profile>
@@ -56,34 +56,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java" />
-      <change type="DELETED" beforePath="C:\Users\waves\IdeaProjects\Thoth\res\drawable\Thoth Remastered Catalog.pdf" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/DatePickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/GrowActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/GrowResultActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/LazyAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/OverviewListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/Thoth/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/grow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/grow_result.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_balance.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_celticcross.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_celticphys.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_centers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_question.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_relations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_seven.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/overview_list.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/overview_list_item.xml" />
+      <change type="DELETED" beforePath="C:\Users\waves\IdeaProjects\Thoth\res\drawable\clarify.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\waves\IdeaProjects\Thoth\src\com\example\Thoth\GameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\waves\IdeaProjects\Thoth\src\com\example\Thoth\GameView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\waves\IdeaProjects\Thoth\src\com\example\Thoth\Sprite.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Thoth/DispositionActivity.java" afterPath="$PROJECT_DIR$/src/com/example/Thoth/DispositionActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java" afterPath="$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Thoth/MenuActivity.java" afterPath="$PROJECT_DIR$/src/com/example/Thoth/MenuActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java" afterPath="$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/main.xml" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/overview.xml" afterPath="$PROJECT_DIR$/res/layout/overview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/overview.xml" afterPath="$PROJECT_DIR$/res/layout-land/overview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Thoth.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AndroidManifest.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374255237620" ignored="false" />
-    <file path="/fragment.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374327735092" ignored="false" />
-    <file path="/MenuActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374233155884" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374601996863" ignored="false" />
-    <file path="/OverviewActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374598720764" ignored="false" />
-    <file path="/DispositionActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374233597178" ignored="false" />
-    <file path="/GameView.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374314113929" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375377647732" ignored="false" />
+    <file path="/fragment.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375377184392" ignored="false" />
+    <file path="/MenuActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375385349077" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375502083907" ignored="false" />
+    <file path="/OverviewActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375373789004" ignored="false" />
+    <file path="/DispositionActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375202053023" ignored="false" />
+    <file path="/GameView.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374768605631" ignored="false" />
     <file path="/Sprite.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374253840387" ignored="false" />
     <file path="/OnSwipeTouchListener.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374298217489" ignored="false" />
     <file path="/go_next_out.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374302062976" ignored="false" />
     <file path="/go_prev_in.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374302651514" ignored="false" />
     <file path="/RingList.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374328774118" ignored="false" />
     <file path="/ListNode.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374328102801" ignored="false" />
-    <file path="/strings.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374601375252" ignored="false" />
+    <file path="/strings.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374641685600" ignored="false" />
     <file path="/a.dummy" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374596389544" ignored="false" />
     <file path="/JustifiedTextView.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374600308113" ignored="false" />
+    <file path="/CustomDialog.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374644375513" ignored="false" />
+    <file path="/OverviewListActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375374409375" ignored="false" />
+    <file path="/LazyAdapter.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375384974326" ignored="false" />
+    <file path="/ImageLoader.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374749170178" ignored="false" />
+    <file path="/Utils.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375196765623" ignored="false" />
+    <file path="/MemoryCache.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374748884189" ignored="false" />
+    <file path="/GameManager.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374769291379" ignored="false" />
+    <file path="/State.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374766769533" ignored="false" />
+    <file path="/QuestionTossState.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374769443029" ignored="false" />
+    <file path="/GameState.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374769348371" ignored="false" />
+    <file path="/QuestionTossScene.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1374853730528" ignored="false" />
+    <file path="$PROJECT_DIR$/GDX/res/layout/main.xml" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375068239379" ignored="false" />
+    <file path="/CardGame.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375069296853" ignored="false" />
+    <file path="/DesktopStarter.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375069358774" ignored="false" />
+    <file path="/GrowActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375378162992" ignored="false" />
+    <file path="/GrowResultActivity.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375502599875" ignored="false" />
+    <file path="/DatePickerFragment.java" changelist="4ec078f6-a4da-4c03-8ce9-0a7b1702dcf8" time="1375380559399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +141,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -135,6 +177,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -144,21 +187,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OverviewActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
+      <file leaf-file-name="DispositionActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/DispositionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="40" selection-start="6585" selection-end="6585" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="79" selection-start="11418" selection-end="11418" vertical-scroll-proportion="0.0">
+            <state line="46" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,78 +208,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GameView.java">
+      <file leaf-file-name="GrowResultActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GrowResultActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="36" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.0">
+            <state line="40" column="21" selection-start="1217" selection-end="1217" vertical-scroll-proportion="1.1497585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-land/overview.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overview.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/overview.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JustifiedTextView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java">
+      <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/MenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1297" selection-end="1363" vertical-scroll-proportion="0.0">
+            <state line="85" column="57" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2848#3314#0" expanded="true" />
+                <element signature="e#3303#3304#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disposition.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-land/disposition.xml">
+      <file leaf-file-name="dialog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dialog.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="45" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="LazyAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/LazyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="150" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+            <state line="66" column="96" selection-start="2250" selection-end="2250" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverviewActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="47" selection-start="1403" selection-end="1437" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrowActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GrowActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="35" selection-start="570" selection-end="910" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -260,6 +275,10 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\waves\workspace\KeyStore\keystore" />
+    <option name="KEY_ALIAS" value="triskaidekach" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -271,22 +290,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/OnSwipeTouchListener.java" />
-        <option value="$PROJECT_DIR$/res/anim/go_next_in.xml" />
-        <option value="$PROJECT_DIR$/res/anim/go_next_out.xml" />
-        <option value="$PROJECT_DIR$/res/anim/go_prev_in.xml" />
-        <option value="$PROJECT_DIR$/res/anim/go_prev_out.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/GameView.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/RingListNode.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/RingList.java" />
-        <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/DispositionActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/layout_celticcross.xml" />
+        <option value="$PROJECT_DIR$/res/layout/layout_celticphys.xml" />
+        <option value="$PROJECT_DIR$/res/layout/layout_centers.xml" />
+        <option value="$PROJECT_DIR$/res/layout/grow_result.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout-land/overview.xml" />
-        <option value="$PROJECT_DIR$/res/layout/overview.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/OverviewListActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/GrowActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/DatePickerFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/grow.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dialog.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/LazyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Thoth/GrowResultActivity.java" />
       </list>
     </option>
   </component>
@@ -310,7 +329,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -321,201 +340,48 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout-land" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Thoth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="ExportedApkPath" value="C:\Users\waves\IdeaProjects\Thoth\Thoth.apk" />
+    <property name="ExportedModule" value="Thoth" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
-    <property name="last_opened_file_path" value="C:/Drivers/adt-bundle-windows-x86_64-20130522/sdk/extras/android/support" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="thoth" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\waves\IdeaProjects\Thoth\src\com\example\Thoth" />
       <recent name="C:\Users\waves\IdeaProjects\Thoth\res\anim" />
       <recent name="C:\Users\waves\IdeaProjects\Thoth\res\layout-land" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.Thoth" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.Thoth" />
@@ -595,16 +461,16 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="DesktopStarter" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/res" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="Desktop" />
       <envs />
       <method />
     </configuration>
@@ -662,8 +528,25 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="DecktopGame" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DesktopStarter" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/res" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Desktop" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Thoth" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DecktopGame" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -694,34 +577,39 @@
       <created>1374231382406</created>
       <updated>1374231382406</updated>
     </task>
+    <task id="LOCAL-00001" summary="overview mode finished">
+      <created>1374602079960</created>
+      <updated>1374602079960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.6712095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4616695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42759797" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4548552" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.7342419" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.88926744" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.7342419" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25037935" sideWeight="0.57240206" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2504259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21439394" sideWeight="0.57240206" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18257576" sideWeight="0.57240206" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.7342419" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -792,54 +680,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/anim/go_next_in.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/anim/go_next_out.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/anim/go_prev_in.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/anim/go_prev_out.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IdeaIC12/system/compile-server/thoth_246dbd48/targets/java-production/Thoth/android/generated_sources/aapt/com/example/Thoth/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="613" selection-end="613" vertical-scroll-proportion="0.054347824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GameView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="36" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/disposition.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/grow_result.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -847,22 +698,27 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.27586207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="128" selection-start="455" selection-end="455" vertical-scroll-proportion="0.35">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/RingListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/DatePickerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/RingList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="851" selection-end="851" vertical-scroll-proportion="1.0703703">
-          <folding />
+        <state line="27" column="47" selection-start="834" selection-end="834" vertical-scroll-proportion="0.4860051">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,47 +732,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/DispositionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="40" selection-start="6585" selection-end="6585" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="46" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/JustifiedTextView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GrowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1297" selection-end="1363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="35" selection-start="570" selection-end="910" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/OverviewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="47" selection-start="1403" selection-end="1437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/grow.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="476" selection-end="509" vertical-scroll-proportion="-3.92" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="79" selection-start="11418" selection-end="11418" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/LazyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="96" selection-start="2250" selection-end="2250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/overview.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="45" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/overview.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/MenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="57" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2848#3314#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Thoth/GrowResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="1217" selection-end="1217" vertical-scroll-proportion="1.1497585">
           <folding />
         </state>
       </provider>
@@ -938,7 +817,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (Thoth)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -962,7 +841,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android SDK 4.0.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -986,6 +865,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>GDXlibs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:orientation="vertical">
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:id="@+id/button_overview" android:layout_gravity="left|center_vertical" android:layout_weight="1"
-            android:src="@drawable/overview" android:scaleType="centerCrop" android:adjustViewBounds="true"
-            android:onClick="onOverview"/>
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:id="@+id/button_disposition" android:layout_gravity="left|center_vertical" android:layout_weight="1"
-            android:src="@drawable/disposition" android:scaleType="center" android:adjustViewBounds="true"
-            android:onClick="onDisposition"/>
-</LinearLayout>
 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:id="@+id/linearLayout">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" android:layout_weight="1">
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button" android:layout_weight="1"
+                android:text="Cards Overview" android:onClick="onOverview"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button1" android:layout_weight="1"
+                android:text="Question" android:onClick="onQuestion"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button2" android:layout_weight="1"
+                android:text="Seven" android:onClick="onSeven"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button3" android:layout_weight="1"
+                android:text="Celtic" android:onClick="onCeltic"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" android:layout_weight="1">
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button4" android:layout_weight="1"
+                android:text="Modified Celtic" android:onClick="onModified"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button5" android:layout_weight="1"
+                android:text="Centers" android:onClick="onCenters"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button6" android:layout_weight="1"
+                android:text="Relations" android:onClick="onRelations"/>
+        <Button style="@android:style/Widget.DeviceDefault.Button.Borderless" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button7" android:layout_weight="1"
+                android:text="Soul Balance" android:onClick="onBalance"/>
+    </LinearLayout>
+</LinearLayout>

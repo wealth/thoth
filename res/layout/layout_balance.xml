@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+             android:layout_height="match_parent" android:orientation="horizontal" android:id="@+id/tableLayout">
+    <TableRow android:layout_width="fill_parent" android:layout_height="match_parent" android:id="@+id/tableRow3"
+              android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Head (Communication)"
+                      android:id="@+id/textView" android:layout_gravity="center_horizontal"
+                      android:gravity="center_horizontal"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageView01" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="match_parent" android:id="@+id/tableRow1"
+              android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="fill_parent">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="I Think About Me" android:id="@+id/textView1" android:layout_gravity="center_horizontal"
+                          android:gravity="center_horizontal"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/imageView02" android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="fill_parent">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="My Behavior" android:id="@+id/textView4"
+                          android:layout_gravity="center_horizontal" android:gravity="center_horizontal"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/imageView05" android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="match_parent" android:id="@+id/tableRow"
+              android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="fill_parent">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="What Helps My Learning" android:id="@+id/textView2" android:layout_gravity="center_horizontal"
+                          android:gravity="center_horizontal"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/imageView03" android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="fill_parent">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="How I Looks" android:id="@+id/textView3"
+                          android:layout_gravity="center_horizontal" android:gravity="center_horizontal"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/imageView04" android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="match_parent" android:id="@+id/tableRow2"
+              android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="fill_parent" android:layout_weight="1">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Relations"
+                      android:id="@+id/textView6" android:layout_gravity="center_horizontal"
+                      android:gravity="center_horizontal"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageView06" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
